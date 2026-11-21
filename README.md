@@ -38,8 +38,8 @@ Windows Security events → Sigma base rules → Correlation → Analyst review
 ## Latest
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/latest-dark.svg">
-  <img width="560" src="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/latest.svg" alt="Latest public repository activity with dates">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/recent-activity-dark.svg">
+  <img width="560" src="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/recent-activity.svg" alt="Latest public repository activity with dates">
 </picture>
 
 [Browse repositories](https://github.com/AshwwinADn?tab=repositories)

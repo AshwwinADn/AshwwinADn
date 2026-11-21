@@ -24,8 +24,8 @@ if (!rows.length) rows.push({ label: 'No public project updates yet', date: '' }
 
 await mkdir('dist', { recursive: true });
 for (const [file, colors] of [
-  ['latest.svg', { ink: '#23383f', muted: '#52666f', rule: '#ccd6db' }],
-  ['latest-dark.svg', { ink: '#e7efef', muted: '#aebdc3', rule: '#425660' }],
+  ['recent-activity.svg', { ink: '#23383f', muted: '#52666f', rule: '#ccd6db' }],
+  ['recent-activity-dark.svg', { ink: '#e7efef', muted: '#aebdc3', rule: '#425660' }],
 ]) {
   const height = rows.length * 36;
   const svgRows = rows.map(({ label, date }, index) => {
