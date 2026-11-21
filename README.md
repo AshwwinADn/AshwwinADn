@@ -1,4 +1,4 @@
-<img src="./assets/signal.svg" width="100%" alt="Ashwwin — Cybersecurity">
+<img src="./assets/signal.svg" width="100%" alt="Ashwwin">
 
 ## Current focus
 
