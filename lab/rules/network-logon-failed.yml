@@ -1,0 +1,15 @@
+title: Failed Windows Network Logon
+id: b72867af-85fe-405a-8c79-fde30fdcbf28
+status: experimental
+description: Identifies failed Windows network logons for downstream correlation.
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4625
+    LogonType: 3
+  condition: selection
+falsepositives:
+  - Mistyped credentials and legitimate service retries
+level: informational

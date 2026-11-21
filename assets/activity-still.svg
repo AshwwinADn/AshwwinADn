@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="45" viewBox="0 0 680 45" role="img" aria-labelledby="title">
+  <title id="title">GitHub contribution activity is available on the profile.</title>
+  <style>
+    :root { --ink: #435960; --type: system-ui, sans-serif; --cell: #319b58; }
+    @media (prefers-color-scheme: dark) { :root { --ink: #b7c6cb; --cell: #56c677; } }
+    text { fill: var(--ink); font: 16px var(--type); }
+    rect { fill: var(--cell); }
+  </style>
+  <rect x="1" y="16" width="11" height="11" rx="2"/>
+  <text x="23" y="27">Contribution calendar below</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="242" viewBox="0 0 880 242" role="img" aria-labelledby="title description">
+  <title id="title">Ashwwin — Cybersecurity</title>
+  <desc id="description">A cyan packet travels once through a network trace beneath the name.</desc>
+  <style>
+    /* Hallmark v2 | Signal Trace | A packet crossing a quiet graphite nameplate. */
+    :root {
+      --surface: #151b20;
+      --ink: #f2efea;
+      --muted: #aebdc3;
+      --rule: #374b54;
+      --signal: #89d4d6;
+      --type: system-ui, sans-serif;
+    }
+    .surface { fill: var(--surface); }
+    .name { fill: var(--ink); font: 650 72px var(--type); }
+    .subtitle { fill: var(--muted); font: 26px var(--type); }
+    .track { fill: none; stroke: var(--rule); stroke-width: 2; }
+    .node { fill: var(--surface); stroke: var(--signal); stroke-width: 2; }
+    .packet {
+      fill: var(--signal);
+      offset-path: path("M 49 194 H 314 L 356 154 H 518 L 559 194 H 831");
+      animation: transmit 2.4s ease-in-out 250ms both;
+    }
+    @keyframes transmit {
+      0% { offset-distance: 0%; opacity: 0; }
+      10% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { offset-distance: 100%; opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .packet { animation: none; display: none; }
+    }
+  </style>
+  <rect class="surface" width="880" height="242" rx="12"/>
+  <text class="name" x="48" y="98">Ashwwin</text>
+  <text class="subtitle" x="51" y="137">Cybersecurity</text>
+  <path class="track" d="M 49 194 H 314 L 356 154 H 518 L 559 194 H 831"/>
+  <circle class="node" cx="49" cy="194" r="5"/>
+  <circle class="node" cx="437" cy="154" r="5"/>
+  <circle class="node" cx="831" cy="194" r="5"/>
+  <circle class="packet" cx="0" cy="0" r="6"/>
+</svg>

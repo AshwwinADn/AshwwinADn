@@ -1,0 +1,15 @@
+title: Successful Windows Network Logon
+id: 80467226-842a-432c-afef-c75d292ec9e8
+status: experimental
+description: Identifies successful Windows network logons for downstream correlation.
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4624
+    LogonType: 3
+  condition: selection
+falsepositives:
+  - Normal network authentication
+level: informational

@@ -1,0 +1,6 @@
+[
+  {"TimeCreated":"2026-01-15T10:00:00Z","Computer":"LAB-WS01","EventID":4625,"LogonType":3,"TargetDomainName":"LAB","TargetUserName":"lab-analyst","IpAddress":"192.0.2.24"},
+  {"TimeCreated":"2026-01-15T10:00:45Z","Computer":"LAB-WS01","EventID":4625,"LogonType":3,"TargetDomainName":"LAB","TargetUserName":"lab-analyst","IpAddress":"192.0.2.24"},
+  {"TimeCreated":"2026-01-15T10:01:17Z","Computer":"LAB-WS01","EventID":4625,"LogonType":3,"TargetDomainName":"LAB","TargetUserName":"lab-analyst","IpAddress":"192.0.2.24"},
+  {"TimeCreated":"2026-01-15T10:02:04Z","Computer":"LAB-WS01","EventID":4624,"LogonType":3,"TargetDomainName":"LAB","TargetUserName":"lab-analyst","IpAddress":"192.0.2.24"}
+]
