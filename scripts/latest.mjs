@@ -10,14 +10,15 @@ const response = await fetch(`https://api.github.com/users/${encodeURIComponent(
 if (!response.ok) throw new Error(`GitHub repository lookup failed: ${response.status}`);
 
 const repositories = (await response.json())
-  .filter(repo => repo.visibility === 'public' && !repo.fork && !repo.archived && repo.name.toLowerCase() !== owner.toLowerCase())
+  .filter(repo => repo.visibility === 'public' && !repo.fork && !repo.archived)
   .slice(0, 3);
 
 const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' };
 const escape = value => value.replace(/[&<>"']/g, character => entities[character]);
 const rows = repositories.map(repo => {
-  const name = repo.name.length > 34 ? `${repo.name.slice(0, 33)}…` : repo.name;
-  return { label: name, date: repo.pushed_at?.slice(0, 10) ?? '' };
+  const name = repo.name.toLowerCase() === owner.toLowerCase() ? 'Profile repository' : repo.name;
+  const label = name.length > 34 ? `${name.slice(0, 33)}…` : name;
+  return { label, date: repo.pushed_at?.slice(0, 10) ?? '' };
 });
 if (!rows.length) rows.push({ label: 'No public project updates yet', date: '' });
 

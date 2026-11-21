@@ -47,10 +47,11 @@ Windows Security events → Sigma base rules → Correlation → Analyst review
 ## Activity
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/activity-still.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/snake-dark.svg">
   <img width="680" src="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/snake.svg" alt="A cyan snake eats the green squares on my GitHub contribution calendar">
 </picture>
+
+[Open the snake animation directly](https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/snake.svg)
 
 ## Connect
 
