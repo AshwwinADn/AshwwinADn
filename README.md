@@ -20,6 +20,10 @@ I work across full-stack development, cloud infrastructure, and developer toolin
 </p>
 
 <p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/profile-highlights.svg" alt="Highlights: public repositories, stars, and followers">
+</p>
+
+<p align="center">
   <img width="100%" src="https://www.gitskins.com/api/section/heatmap?mode=dark&amp;theme=github-dark&amp;username=AshwwinADn" alt="GitHub contribution activity over the last year">
 </p>
 
@@ -92,10 +96,9 @@ I work across full-stack development, cloud infrastructure, and developer toolin
   <a href="https://github.com/AshwwinADn">GitHub</a>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/snake-dark.svg">
-  <img width="100%" src="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/snake.svg" alt="Animated snake traveling through my GitHub contribution grid">
-</picture>
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/AshwwinADn/AshwwinADn/output/profile-snake.svg" alt="Animated snake traveling through my GitHub contribution grid">
+</p>
 
 <p align="center">
   <sub>ashwwinadn · <a href="https://www.gitskins.com/templates/community-creative-dev-rt3x">creative dev</a> template by <a href="https://github.com/himanshu201031">@himanshu201031</a> · live cards by <a href="https://www.gitskins.com/">GitSkins</a></sub>
