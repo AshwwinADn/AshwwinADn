@@ -34,6 +34,11 @@ jobs:
             dist/snake-dark.svg?palette=github-dark&color_snake=#89d4d6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build framed profile cards
+        run: node scripts/profile-cards.mjs
+        env:
+          PROFILE_OWNER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish graphics to the output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
